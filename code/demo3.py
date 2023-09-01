@@ -1,0 +1,8 @@
+data01 = input("输入单价：")
+data02 = input("输入数量:")
+data04 = float(input("给得钱:"))
+# data04 = int(data04)
+# data01 = int(data01)
+# data02 = int(data02)
+data03 = float(data04) - float(data01) * float(data02)
+print("应该找:"+str(data03))
